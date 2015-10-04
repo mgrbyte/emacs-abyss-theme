@@ -1,17 +1,18 @@
-;;; abyss-theme.el --- A dark theme with strong colors
+;;; abyss-theme.el --- A dark theme with contrasting colours.
 
 ;; Author: Matt Russell <matthew.russell@horizon5.org>
 ;; Version: 0.1
-;; Filename: abysss-theme.el
+;; Filename: abyss-theme.el
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: theme, dark, constrasting colours
 ;; URL: https://github.com/mgrbyte/emacs-abyss-theme
 
 ;;; Commentary:
 
-;; A Dark Theme with constrasting colors for Emacs24 based on the
-;; ``Lush`` theme by Andre Richter, using some colors as defined in
-;; the builtin dichromacy theme for red/green colour blind users.
+;; A Dark Theme with constrasting colours for Emacs24 based on the
+;; ``Lush`` theme by Andre Richter, using the same colours palette
+;; as the the builtin `dichromacy' theme; intendend to be suitable
+;; for red/green colour blind users.
 
 ;;; Code:
 
