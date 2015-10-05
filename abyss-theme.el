@@ -52,7 +52,7 @@
    `(font-lock-function-name-face ((t (:foreground ,abyss/skyblue))))
    `(font-lock-keyword-face ((t (:foreground ,abyss/yellow))))
    `(font-lock-preprocessor-face ((t (:foreground ,abyss/blue))))
-   `(font-lock-type-face ((t (:foreground ,abyss/orange))))
+   `(font-lock-type-face ((t (:foreground ,abyss/skyblue))))
    `(font-lock-variable-name-face ((t (:foreground ,abyss/bluegray))))
    `(font-lock-negation-char-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss/scarlet :bold t))))
