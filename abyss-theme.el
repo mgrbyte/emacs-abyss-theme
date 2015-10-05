@@ -30,8 +30,9 @@
        (abyss/scarlet "#FF1A00")
        (abyss/bluegray "#848ea9")
        (abyss/background "#050000")
+       (abyss/background2 "#0d1000")
        (abyss/foreground "#bbe0f0")
-       (abyss/hl-line    "#333333"))
+       (abyss/hl-line "#00f000"))
   (custom-theme-set-faces
    `abyss
    `(bold ((t (:bold t))))
@@ -56,9 +57,9 @@
    `(font-lock-negation-char-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss/scarlet :bold t))))
    `(gui-element
-     ((t (:foreground abyss/background :background abyss/foreground))))
+     ((t (:foreground ,abyss/background :background ,abyss/foreground))))
    `(mode-line
-     ((t (:foreground "#F0F0F0" :background "#444444" :box nil))))
+     ((t (:foreground ,abyss/background :background ,abyss/foreground :box nil))))
    `(mode-line-highlight ((t (:foreground ,abyss/redpurple :box nil))))
    `(hl-line ((t (:background ,abyss/hl-line))))
    `(text-cursor
