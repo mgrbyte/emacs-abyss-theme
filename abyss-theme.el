@@ -1,7 +1,7 @@
 ;;; abyss-theme.el --- A dark theme with contrasting colours.
 
 ;; Author: Matt Russell <matthew.russell@horizon5.org>
-;; Version: 0.1
+;; Version: 0.2
 ;; Filename: abyss-theme.el
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: theme, dark, contrasting colours
