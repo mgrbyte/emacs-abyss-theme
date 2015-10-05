@@ -1,3 +1,6 @@
+.. image:: http://melpa.org/packages/abyss-theme-badge.svg
+           :target: MELPA_
+
 =================
 emacs-abyss-theme
 =================
