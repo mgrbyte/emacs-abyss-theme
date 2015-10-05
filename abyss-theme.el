@@ -40,7 +40,7 @@
    `(border-glyph ((t (nil))))
    `(default
       ((t (:foreground ,abyss/foreground :background ,abyss/background))))
-   `(fringe ((t (:background ,abyss/background))))
+   `(fringe ((t (:background ,abyss/background2))))
    `(buffers-tab
      ((t (:foreground ,abyss/foreground :background ,abyss/background))))
    `(font-lock-builtin-face ((t (:foreground ,abyss/vanilla-cream))))
@@ -57,21 +57,18 @@
    `(font-lock-negation-char-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss/scarlet :bold t))))
    `(gui-element
-     ((t (:foreground ,abyss/background :background ,abyss/foreground))))
-   `(mode-line
-     ((t (:foreground ,abyss/background :background ,abyss/foreground :box nil))))
-   `(mode-line-highlight ((t (:foreground ,abyss/redpurple :box nil))))
-   `(hl-line ((t (:background ,abyss/hl-line))))
+     ((t (:foreground ,abyss/background2 :background ,abyss/foreground))))
+   `(mode-line ((t (:foreground ,abyss/vanilla-cream :box nil))))
+   `(mode-line-highlight ((t (:foreground ,abyss/yellow :box nil))))
    `(text-cursor
-     ((t (:foreground ,abyss/foreground :background ,abyss/background))))
-   `(region ((t (:background ,abyss/bluegreen))))
-   `(highlight ((t (:background "#222222"))))
-   `(highline-face ((t (:background ,abyss/bluegreen))))
+        ((t (:foreground ,abyss/foreground :background ,abyss/background))))
+   `(region
+     ((t (:foreground ,abyss/background :background ,abyss/skyblue))))
    `(italic ((t (nil))))
    `(left-margin ((t (nil))))
    `(toolbar ((t (nil))))
-   `(magit-item-highlight ((t (:inherit region))))
-   `(underline ((nil (:underline nil))))))
+   `(magit-item-highlight ((t (:inherit region)))))
+  `(underline ((nil (:underline nil)))))
 
 ;;;###autoload
 (when load-file-name
