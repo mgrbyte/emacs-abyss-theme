@@ -1,7 +1,7 @@
 ;;; abyss-theme.el --- A dark theme with contrasting colours.
 
 ;; Author: Matt Russell <matthew.russell@horizon5.org>
-;; Version: 0.2
+;; Version: 0.3
 ;; Filename: abyss-theme.el
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: theme, dark, contrasting colours
@@ -57,13 +57,17 @@
    `(font-lock-negation-char-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss/scarlet :bold t))))
    `(gui-element
-     ((t (:foreground ,abyss/background2 :background ,abyss/foreground))))
-   `(mode-line ((t (:foreground ,abyss/vanilla-cream :box nil))))
-   `(mode-line-highlight ((t (:foreground ,abyss/yellow :box nil))))
+        ((t (:foreground ,abyss/background2 :background ,abyss/foreground))))
+   `(mode-line
+     ((t (:foreground ,abyss/background2 :background ,abyss/skyblue :box nil))))
+   `(mode-line-highlight
+     ((t (:foreground ,abyss/vanilla-cream :box nil))))
+   `(mode-line-inactive
+     ((t (:foreground ,abyss/redpurple :background ,abyss/background2 :box nil))))
    `(text-cursor
         ((t (:foreground ,abyss/foreground :background ,abyss/background))))
    `(region
-     ((t (:foreground ,abyss/background :background ,abyss/skyblue))))
+     ((t (:foreground ,abyss/background :background ,abyss/redpurple))))
    `(italic ((t (nil))))
    `(left-margin ((t (nil))))
    `(toolbar ((t (nil))))

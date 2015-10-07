@@ -1,4 +1,11 @@
-2015-10-05  Matt Russell  <mattr@netsight.co.uk>
+2015-10-07  Matt Russell  <matthew.russell@horizon5.org>
+
+        * Changelog: 0.3
+
+        Make the mode-line distinct.
+        Add styling for the `mode-line-inactive` face.
+
+2015-10-05  Matt Russell  <matthew.russell@horizon5.org>
 
         * Changelog: 0.2 Tweaked colours
 
