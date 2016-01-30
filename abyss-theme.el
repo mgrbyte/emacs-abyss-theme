@@ -32,7 +32,9 @@
        (abyss/background "#050000")
        (abyss/background2 "#0d1000")
        (abyss/foreground "#bbe0f0")
-       (abyss/hl-line "#00f000"))
+       (abyss/hl-line "#00f000")
+       (abyss/magenta "#ff00ff")
+       (abyss/green "#00ff00"))
   (custom-theme-set-faces
    `abyss
    `(bold ((t (:bold t))))
@@ -43,17 +45,17 @@
    `(fringe ((t (:background ,abyss/background2))))
    `(buffers-tab
      ((t (:foreground ,abyss/foreground :background ,abyss/background))))
-   `(font-lock-builtin-face ((t (:foreground ,abyss/vanilla-cream))))
+   `(font-lock-builtin-face ((t (:foreground ,abyss/vanilla-cream))));
    `(font-lock-comment-face ((t (:foreground ,abyss/vermillion :italic t))))
    `(font-lock-constant-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-doc-face ((t (:foreground ,abyss/orange))))
    `(font-lock-doc-string-face ((t (:foreground ,abyss/vermillion))))
-   `(font-lock-string-face ((t (:foreground ,abyss/bluegreen))))
+   `(font-lock-string-face ((t (:foreground ,abyss/magenta))))
    `(font-lock-function-name-face ((t (:foreground ,abyss/skyblue))))
    `(font-lock-keyword-face ((t (:foreground ,abyss/yellow))))
    `(font-lock-preprocessor-face ((t (:foreground ,abyss/blue))))
    `(font-lock-type-face ((t (:foreground ,abyss/skyblue))))
-   `(font-lock-variable-name-face ((t (:foreground ,abyss/bluegray))))
+   `(font-lock-variable-name-face ((t (:foreground ,abyss/green ))))
    `(font-lock-negation-char-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss/scarlet :bold t))))
    `(gui-element
