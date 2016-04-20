@@ -26,15 +26,15 @@ default by adding the following to your Emacs configuration:
 
 ### clojure ###
 
-![clojure/magit](../prep-release/img/screen-clojure-mode-plus-magit-active-window-mode-line-hilite.png?raw=true "clojure/magit")
+![clojure/magit](../master/img/screen-clojure-mode-plus-magit-active-window-mode-line-hilite.png?raw=true "clojure/magit")
 
 ### emacs-lisp ###
 
-![elisp/magit](../prep-release/img/screen-emacs-lisp-plus-magit-vsplit.png?raw=true "elisp/magit")
+![elisp/magit](../master/img/screen-emacs-lisp-plus-magit-vsplit.png?raw=true "elisp/magit")
 
 ### python ###
 
-![python/magit](../prep-release/img/screen-python-magit-hilite-options.png?raw=true "python/magit")
+![python/magit](../master/img/screen-python-magit-hilite-options.png?raw=true "python/magit")
 
 *Screenshots taken with emacs configured with @mgrbyte's [emacs.d][3] setup.*
 
