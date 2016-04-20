@@ -34,6 +34,8 @@
        (abyss/foreground "#bbe0f0")
        (abyss/hl-line "#00f000")
        (abyss/magenta "#ff00ff")
+       (abyss/hilite "#dd5542")
+       (abyss/white "#ffffff")
        (abyss/green "#00ff00"))
   (custom-theme-set-faces
    `abyss
@@ -46,6 +48,7 @@
    `(buffers-tab
      ((t (:foreground ,abyss/foreground :background ,abyss/background))))
    `(font-lock-builtin-face ((t (:foreground ,abyss/vanilla-cream))));
+   `(font-lock-comment-delimiter-face ((t (:foreground ,abyss/vermillion :italic t))))
    `(font-lock-comment-face ((t (:foreground ,abyss/vermillion :italic t))))
    `(font-lock-constant-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-doc-face ((t (:foreground ,abyss/orange))))
@@ -73,6 +76,8 @@
    `(italic ((t (nil))))
    `(left-margin ((t (nil))))
    `(toolbar ((t (nil))))
+   `(whitespace-tab ((t (:background ,abyss/background))))
+   `(whitespace-line ((t (:foreground ,abyss/white :background ,abyss/hilite))))
    `(magit-item-highlight ((t (:inherit region)))))
   `(underline ((nil (:underline nil)))))
 
