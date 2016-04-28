@@ -36,6 +36,10 @@ default by adding the following to your Emacs configuration:
 
 ![python/magit](../master/img/screen-python-magit-hilite-options.png?raw=true "python/magit")
 
+### C ###
+
+![C/pht](../master/img/screen-c-rtrim.png?raw=true "C/pht")
+
 *Screenshots taken with emacs configured with @mgrbyte's [emacs.d][3] setup.*
 
 [1]: http://melpa.milkbox.net/
