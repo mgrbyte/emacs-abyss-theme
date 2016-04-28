@@ -37,7 +37,7 @@
        (abyss/hilite "#dd5542")
        (abyss/white "#ffffff")
        (abyss/green "#00ff00")
-	   (abyss/springgreen "#00fa9a"))
+       (abyss/springgreen "#00fa9a"))
   (custom-theme-set-faces
    `abyss
    `(bold ((t (:bold t))))
