@@ -36,7 +36,8 @@
        (abyss/magenta "#ff00ff")
        (abyss/hilite "#dd5542")
        (abyss/white "#ffffff")
-       (abyss/green "#00ff00"))
+       (abyss/green "#00ff00")
+       (abyss/springgreen "#00fa9a"))
   (custom-theme-set-faces
    `abyss
    `(bold ((t (:bold t))))
@@ -57,7 +58,7 @@
    `(font-lock-function-name-face ((t (:foreground ,abyss/skyblue))))
    `(font-lock-keyword-face ((t (:foreground ,abyss/yellow))))
    `(font-lock-preprocessor-face ((t (:foreground ,abyss/blue))))
-   `(font-lock-type-face ((t (:foreground ,abyss/skyblue))))
+   `(font-lock-type-face ((t (:foreground ,abyss/springgreen))))
    `(font-lock-variable-name-face ((t (:foreground ,abyss/green ))))
    `(font-lock-negation-char-face ((t (:foreground ,abyss/redpurple))))
    `(font-lock-warning-face ((t (:foreground ,abyss/scarlet :bold t))))
