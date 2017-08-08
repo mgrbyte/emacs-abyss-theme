@@ -1,6 +1,23 @@
 2017-08-08  Matt Russell  <matt@mgrbyte.co.uk>
 
-	* Changelog: 0.4 Added GPLv3 license
+	* Changelog: 0.7 Fixed packing/release errors.
+
+2017-08-08  Matt Russell  <matt@mgrbyte.co.uk>
+
+	* Changelog: 0.6 Added GPLv3 license
+
+
+2016-20-04 Matt Russell <matt@mgrbyte.co.uk>
+
+	* Changelog: 0.5 Fix link URLs to screenshots in README
+
+2016-20-04 Matt Russell <matt@mgrbyte.co.uk>
+
+	* Changelog: 0.4
+
+	Changes from @hexmode (itallic comments, whitespace hilite'ing)
+	Update author email in source.
+	Add screenshots to README (Fixes #3)
 
 2015-10-07  Matt Russell  <matt@mgrbyte.co.uk>
 
