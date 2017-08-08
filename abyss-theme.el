@@ -6,6 +6,7 @@
 ;; Package-Requires: ((emacs "24"))
 ;; Keywords: theme, dark, contrasting colours
 ;; URL: https://github.com/mgrbyte/emacs-abyss-theme
+;; License: GPL-3+
 
 ;;; Commentary:
 
