@@ -2,8 +2,7 @@
 
 [![MELPA](http://melpa.org/packages/abyss-theme-badge.svg)](http://melpa.org/#/abyss-theme)
 
-A dark theme with strong colours for Emacs 24, based on Andre
-Richter's [lush][2] theme.
+A dark theme with strong colours for Emacs 24+, based on Andre Richter's [lush][2] theme.
 
 ## Installation ##
 
@@ -47,7 +46,7 @@ default by adding the following to your Emacs configuration:
 A dark theme with strong colours for Emacs 24, based on Andre
 Richter's [lush][2] theme.
 
-Copyright(C) 2016-2017 Matt Russell <matt@mgrbyte.co.uk>
+Copyright(C) 2016-2026 Matt Russell <m.russell@bangor.ac.uk>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
